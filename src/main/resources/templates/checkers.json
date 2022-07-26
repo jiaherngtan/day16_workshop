@@ -1,0 +1,38 @@
+{
+    "name": "checkers",
+    "pieces": {
+        "rulebook": {
+            "total_count": 1,
+            "file": "rulebook-checkers.pdf"
+        },
+        "board": {
+            "total_count": 1,
+            "squares": {
+                "total_count": 64,
+                "types": [
+                    {
+                        "type": "dark",
+                        "count": 32
+                    },
+                    {
+                        "type": "light",
+                        "count": 32
+                    }
+                ]
+            }
+        },
+        "discs": {
+            "total_count": 32,
+            "types": [
+                {
+                    "type": "dark",
+                    "count": 12
+                },
+                {
+                    "type": "light",
+                    "count": 12
+                }
+            ]
+        }
+    }
+}
