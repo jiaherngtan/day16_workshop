@@ -3,11 +3,15 @@ package com.vttp2022.workshop16;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.vttp2022.workshop16.controller.ReadJSON;
+
 @SpringBootApplication
 public class Workshop16Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Workshop16Application.class, args);
+		ReadJSON readJson = new ReadJSON();
+		readJson.readJson();
 	}
 
 }
