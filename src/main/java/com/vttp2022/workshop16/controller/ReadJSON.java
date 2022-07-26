@@ -21,7 +21,7 @@ public class ReadJSON {
     public void readJson() {
         try {
             InputStream fis = new FileInputStream(
-                    "/Users/jiaherngtan/Desktop/visa/ssf/workshop16/src/main/resources/templates/checkers.json");
+                    "checkers.json");
 
             // create JsonReader object
             JsonReader jsonReader = Json.createReader(fis);
