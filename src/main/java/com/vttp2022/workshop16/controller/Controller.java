@@ -30,8 +30,10 @@ public class Controller {
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
 		}
-        
-		return new ResponseEntity<>("Good Job", HttpStatus.OK);
+
+        //Logic to read http response and save file
+
+		return new ResponseEntity<>("Good Job", HttpStatus.CREATED);
 	}
 }
 
